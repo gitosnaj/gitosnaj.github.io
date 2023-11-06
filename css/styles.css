@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 
+
 /* Body */
 
 :root {
@@ -282,13 +283,14 @@ nav {
 .class__grid {
   margin-top: 2rem;
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem;
 
 }
 
 .class__card {
   
-    max-width: 500px;
+  max-width: 500px;
   max-height: 200px;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
   position: relative;
