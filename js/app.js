@@ -1,4 +1,5 @@
 const express = require('express');
+const nodemon = require('nodemon');
 
 
 
@@ -15,7 +16,7 @@ app.listen(3000, () => {
 
 //routes
 
-app.get('/memberreg', (req, res) => {
+app.get('/', (req, res) => {
     res.json({
         message: 'Member login page'
     });
